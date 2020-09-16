@@ -12,7 +12,7 @@ wall_area = wall_height * wall_width
 print("Wall area:", wall_area, "square feet")
 
 paint = float(wall_area / 350)
-print("Paint needed:","{:.2f}".format(paint), "gallons")
+print("Paint needed:", "{:.2f}".format(paint), "gallons")
 
 cans = math.ceil(paint)
 print("Cans needed:", cans, "can(s)")
