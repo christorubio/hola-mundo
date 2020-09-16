@@ -1,14 +1,9 @@
 #Chris Rubio
 #1530668
 
-oil_change = 35
-tire_rotation = 19
-car_wash = 7
-car_wax = 12
+#service menu
 services = {'Oil change': 35, 'Tire rotation': 19, 'Car wash': 7, 'Car wax': 12, '-': 0}
-first = ""
-second = ""
-total = 0
+
 print("Davy's auto shop services")
 print('Oil change -- $35')
 print('Tire rotation -- $19')
