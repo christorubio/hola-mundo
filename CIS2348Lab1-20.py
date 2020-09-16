@@ -8,7 +8,7 @@ cbd = num * num * num
 
 print("You entered:", num)
 print(num, "squared is", sqd)
-print("And", num, "cubed is", cbd,"!!")
+print("And", num, "cubed is", cbd, "!!")
 print("Enter another integer:")
 num2 = int(input())
 sum1 = num + num2
