@@ -1,3 +1,6 @@
+#Chris Rubio
+#1530668
+
 words = input().split()
 for x in words:
     count = 0
