@@ -1,3 +1,6 @@
+#Chris Rubio
+#1530668
+
 def printRoster():
    keys = list(players.keys())
 
