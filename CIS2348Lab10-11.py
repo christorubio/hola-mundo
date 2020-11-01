@@ -1,3 +1,6 @@
+#Chris Rubio
+#1530668
+
 class FoodItem:
   def __init__(self, name, fat, carbs, protein):
     self.name = name 
