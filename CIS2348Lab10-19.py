@@ -24,26 +24,26 @@ class ShoppingCart:
       
    def remove_item(self, itemName):
       
-       tremove_item = False
+       rremove_item = False
        for item in self.cart_items:
            if item.item_name == itemName:
                self.cart_items.remove(item)
-               tremove_item = True
+               rremove_item = True
                break
-       if not tremove_item:          
+       if not rremove_item:          
            print('Item not found in cart. Nothing removed.')
               
    def modify_item(self, itemToPurchase):  
       
-       tmodify_item = False
+       mmodify_item = False
        for i in range(len(self.cart_items)):
           
            if self.cart_items[i].item_name == itemToPurchase.item_name:
-               tmodify_item = True
+               mmodify_item = True
                self.cart_items[i].item_quantity = itemToPurchase.item_quantity
                break
       
-       if not tmodify_item:      
+       if not mmodify_item:      
            print('Item not found in cart. Nothing modified.')  
 
    def get_num_items_in_cart(self):
@@ -55,8 +55,8 @@ class ShoppingCart:
    def get_cost_of_cart(self):
        total_cost = 0
        cost = 0
-       for item in self.cart_items:
-           cost = (item.item_quantity * item.item_price)
+       for obj in self.cart_items:
+           cost = (obj.item_quantity * obj.item_price)
            total_cost += cost
        return total_cost
               
