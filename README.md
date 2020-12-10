@@ -1,2 +1,2 @@
 # hola-mundo
-Final labs in course chapters 12 & 14
+Final Project for CIS 2348: Did have some issues with user output. 
